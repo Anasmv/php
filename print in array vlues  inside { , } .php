@@ -15,8 +15,8 @@ echo "<br>";
 foreach ($explode as $line) {
 	$array1  = explode(",", $line);
 	foreach ($array1 as $line1) {
-        if($line1 != '')
-        {
+		if($line1 != '')
+		{
 			echo $line1; echo '<br>';
 		}
 	}
