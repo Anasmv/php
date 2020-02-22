@@ -55,6 +55,13 @@
   //$sql = "SELECT * FROM posts WHERE author = '$author'";
 
   // FETCH MULTIPLE POSTS
+  
+  
+ //multiple database 
+   // $dbh = new PDO('mysql:host=127.0.0.1','USER','PASS');
+
+  //  $query = "SELECT * FROM database1.table1";
+  //  $query = "SELECT * FROM database2.table1";
 
   
   
