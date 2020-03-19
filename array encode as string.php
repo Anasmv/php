@@ -2,6 +2,7 @@
 
 $orders  = array("name", "price", "qty");
 echo $enc=  encode_arr($orders);
+//encript data 
 echo '<br>';
 echo '<pre>';
 print_r(decode_arr($enc));
